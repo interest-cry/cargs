@@ -7,7 +7,6 @@
 #define NAME_LEN 32
 #define VALUVE_LEN 64
 #define ARG_COUNT 32
-#define s (char*)  // string to char*
 enum { STRING, INT };
 
 typedef struct Argument {

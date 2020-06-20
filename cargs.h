@@ -28,6 +28,7 @@ int fprint_null_uchar_array(FILE* stream, const char* array, int size,
 int print_null_uchar_array(const char* array, int size, const char* prefix);
 
 /********control log printf*****/
+#define s (char*)  // string to char*
 #ifdef DEBUG
 #define LOG print  // use or use printf
 #define FLOG fprint
